@@ -23,6 +23,8 @@
        <router-link to="/inicioSesion">inicioSesion</router-link>
        <br>
        <sidebar></sidebar>
+       <br>
+       <router-link to="/Mostrar">Mostrar</router-link>
 
 
     </nav>

@@ -12,6 +12,8 @@ import DashBoardUsuario from '../views/Usuario/DashBoardUsuario.vue'
 import rol from '../views/Usuario/login/rol.vue'
 import inicioSesion from '../views/Usuario/login/inicioSesion.vue'
 
+import Mostrar from '../views/Mostrar.vue'
+
 
 Vue.use(VueRouter)
 
@@ -61,6 +63,11 @@ const routes = [
     path: '/inicioSesion',
     name: 'InicinicioSesionio',
     component: inicioSesion
+  },
+  {
+    path: '/Mostrar',
+    name: 'Mostrar',
+    component: Mostrar
   },
   { 
     path: '/about',
